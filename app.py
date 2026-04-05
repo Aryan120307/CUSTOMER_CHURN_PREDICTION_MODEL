@@ -12,7 +12,7 @@ def load_model():
 model = load_model()
 
 # ---------------- PAGE CONFIG ----------------
-st.set_page_config(page_title="Customer Churn Dashboard", layout="wide")
+st.set_page_config(page_title="Predictive Churn Model ", layout="wide")
 
 # ---------------- DEFAULT THEME ----------------
 st.markdown("""
@@ -24,7 +24,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align:center;'>📊 Customer Churn Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;'>📊Predictive Churn Model</h1>", unsafe_allow_html=True)
 st.write("---")
 
 # ---------------- PLAN DATA ----------------
